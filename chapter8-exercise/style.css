@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-box {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  color: grey ;
+  list-style: none;
+}
+
+.list-box:nth-child(odd) {
+  background-color: rgb(226, 218, 218);
+}
+
+.colorbox {
+  width: 960px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 200px;
+  width: 30%;
+}
+
+.box:nth-child(1) {
+  background-color: orange;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(2) {
+  background-color: rgba(255, 255, 0, 0.781);
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(3) {
+  background-color: rgba(255, 255, 0, 0.781);
+  margin-bottom: 40px;
+}
+
+.box:nth-child(4) {
+  background-color: rgba(255, 255, 0, 0.781);
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(5) {
+  background-color: orange;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(6) {
+  background-color: rgba(255, 255, 0, 0.781);
+  margin-bottom: 40px;
+}
+
+.box:nth-child(7) {
+  background-color: rgba(255, 255, 0, 0.781);
+  margin-right: 5%;
+}
+
+.box:nth-child(8) {
+  background-color: rgba(255, 255, 0, 0.781);
+  margin-right: 5%;
+}
+
+.box:nth-child(9) {
+  background-color: orange;
+}
